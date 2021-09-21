@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 import './App.scss';
 
-export const App: FunctionComponent = () => (
+export const App: React.FC = () => (
   <div className="starter">
     React starter pack
   </div>
