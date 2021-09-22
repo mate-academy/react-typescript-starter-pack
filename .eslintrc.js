@@ -4,6 +4,7 @@ module.exports = {
     'plugin:react/recommended',
   ],
   rules: {
+    'react/prop-types': 0,
     semi: 0,
     'no-proto': 0,
     'no-unused-vars': 0,
