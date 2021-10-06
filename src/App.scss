@@ -1,3 +1,155 @@
 .starter {
   font-size: 18px;
 }
+
+.menu {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1020;
+}
+
+.container {
+  padding: 14px 60px 0;
+  background-color: #fff;
+}
+
+.card-body--head-article {
+  padding: 41px 82px 43px 57px;
+}
+
+.card-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  &--head-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.mb-27 {
+  margin-bottom: 27px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.h-100 {
+  height: 382px;
+}
+
+.card-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.element {
+  margin: 0;
+}
+
+.gu-image {
+  width: 100%;
+  height: 179px;
+
+  object-fit: fill;
+}
+
+.element-image__caption, .element-image__credit {
+  display: none;
+}
+
+.card-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #718096;
+
+  &--bot {
+    margin: 0;
+
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &--small-card {
+    height: 85px;
+    overflow: hidden;
+  }
+}
+
+.card-date {
+  margin: 0;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #2D3748;
+}
+
+.article-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__text {
+    margin: 0;
+  }
+}
+
+.article-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+  &__text {
+    margin: 0;
+  }
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer-copyright {
+  margin: 0;
+  padding-bottom: 1px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.logo-footer {
+  display: flex;
+  margin-right: 50px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.logo-bar--rights {
+  align-items: flex-end;
+  font-size: 16px;
+  line-height: 19px;
+}

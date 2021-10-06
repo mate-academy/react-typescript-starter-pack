@@ -1,9 +1,5 @@
-# React TypeScript Starter Pack
+Description:
+ - News page with ability to search articles and choose categories.
 
-To use this template click `Use this template`
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+- [DEMO](https://uran-web.github.io/react-typescript-starter-pack/);
