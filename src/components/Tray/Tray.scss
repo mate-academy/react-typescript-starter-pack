@@ -1,0 +1,14 @@
+// vars
+$board-width: 60vh;
+
+.captured {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: $board-width / 8;
+  padding: 10px 30px;
+
+  &.black {
+    flex-wrap: wrap-reverse;
+  }
+}
