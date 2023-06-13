@@ -1,0 +1,30 @@
+// vars
+$border-width: 4px;
+
+.square {
+  background-color: lightblue;
+  transition: transform 0.1s;
+
+  &:nth-child(-2n + 8),
+  &:nth-child(8) ~ div:nth-child(-2n + 15),
+  &:nth-child(16) ~ div:nth-child(-2n + 24),
+  &:nth-child(24) ~ div:nth-child(-2n + 31),
+  &:nth-child(32) ~ div:nth-child(-2n + 40),
+  &:nth-child(40) ~ div:nth-child(-2n + 47),
+  &:nth-child(48) ~ div:nth-child(-2n + 56),
+  &:nth-child(56) ~ div:nth-child(-2n + 63) {
+    background-color: slategray;
+  }
+
+  &:hover {
+    box-shadow: 0 0 0 $border-width darkslategray;
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  &.active {
+    box-shadow: 0 0 0 $border-width greenyellow;
+    z-index: 1;
+  }
+}

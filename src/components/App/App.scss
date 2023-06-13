@@ -1,0 +1,77 @@
+// vars
+$page-margin: 15px;
+$button-bg-color: #867358;
+$button-color: burlywood;
+
+.app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vh;
+  height: 100vh;
+  margin: auto;
+}
+
+header {
+  position: absolute;
+  top: $page-margin;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.2rem;
+
+  .winner {
+    animation: pulse 1s infinite;
+  }
+
+  .status {
+    margin-right: 6px;
+    text-transform: capitalize;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .white {
+    color: white;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  padding: 0 1rem;
+  margin: 0 auto;
+  border: 0;
+  background-color: $button-bg-color;
+  color: $button-color;
+  font: inherit;
+  font-size: medium;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-color;
+    color: $button-bg-color;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
